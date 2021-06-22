@@ -1,0 +1,33 @@
+{
+  "usuarios": [
+    {
+      "tipo": 0,
+      "id": 0,
+      "nombre": "usuario1",
+      "contraseña": "test",
+      "numTrajeta": 123,
+      "pinTarjeta": 111,
+      "listaMedidores": [
+        {
+          "id": 0,
+          "listaConsumos": [
+            {
+              "id": 0,
+              "tarifa": 2.5,
+              "fecha": "1-2-2003",
+              "kwh": 1,
+              "estado": "ak7"
+            }
+          ]
+        }
+      ],
+      "listaCobros": []
+    },
+    {
+      "tipo": 1,
+      "id": 1,
+      "nombre": "usuario2",
+      "contraseña": "contra"
+    }
+  ]
+}
