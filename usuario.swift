@@ -11,16 +11,14 @@
         self.password = password_input
       }
 
-      func validar_sesion(nombre: String, password: String)->Bool{
+      func validar_sesion(nombre: String, password: String) -> Bool {
         
         if(self.nombre == nombre && self.password == password) {
-          print("Bienvenido")
           return true
         }
-        else{
-          print("Credenciales ingresados incorrectamente")
-          return false
-        }
+
+        print("\nCredenciales ingresados incorrectamente.\n")
+        return false
       }
 
       func set_nombre(nombre_input: String)->Void{

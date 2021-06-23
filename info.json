@@ -1,33 +1,39 @@
 {
-  "usuarios": [
+  "lista_agentes": [
     {
-      "tipo": 0,
-      "id": 0,
-      "nombre": "usuario1",
-      "contraseña": "test",
-      "numTrajeta": 123,
-      "pinTarjeta": 111,
-      "listaMedidores": [
+      "nombre": "Pablo",
+      "apellido1": "Peraza",
+      "apellido2": "Solórzano",
+      "password": "contra1"
+    }
+  ],
+  "lista_clientes": [
+    {
+      "numero_tarjeta": 123,
+      "cvc_tarjeta": 456,
+      "nombre": "Alonso",
+      "apellido1": "Obando",
+      "apellido2": "Carmona",
+      "password": "contra2",
+      "lista_medidores": [
         {
           "id": 0,
-          "listaConsumos": [
+          "lista_facturas_pagadas": [
             {
-              "id": 0,
-              "tarifa": 2.5,
-              "fecha": "1-2-2003",
-              "kwh": 1,
-              "estado": "ak7"
+              "id_factura": 0,
+              "tarifa": 1,
+              "consumo_kwh": 2
+            }
+          ],
+          "lista_facturas_pendientes": [
+            {
+              "id_factura": 1,
+              "tarifa": 3,
+              "consumo_kwh": 4
             }
           ]
         }
-      ],
-      "listaCobros": []
-    },
-    {
-      "tipo": 1,
-      "id": 1,
-      "nombre": "usuario2",
-      "contraseña": "contra"
+      ]
     }
   ]
 }
